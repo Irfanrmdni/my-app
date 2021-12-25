@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -28,10 +28,23 @@
   color: #61dafb;
 }
 
+/* ? styling button */
+.btn {
+  padding: .5rem 2rem;
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  outline: none;
+  margin: 1rem;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
